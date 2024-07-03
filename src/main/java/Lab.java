@@ -14,5 +14,8 @@ public class Lab {
      */
     public void throwUncheckedException(){
 
+        String sampleString = "apple";
+        char lastCharacterOfString = sampleString.charAt(5);
+        // This will throw a NullPointerException'
     }
 }
